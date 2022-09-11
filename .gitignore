@@ -149,6 +149,6 @@ dmypy.json
 configs/local/default.yaml
 data/
 logs/
-checkpoints/
 .env
 .autoenv
+outputs/
