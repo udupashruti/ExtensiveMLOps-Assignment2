@@ -28,7 +28,7 @@ test-full: ## Run all tests
 	pytest
 
 train: ## Train the model
-	python src/train.py
+	python src/train.py experiments=cifar10
 	
 build: ## create image
 	docker build -t ${IMAGE_NAME} .
