@@ -153,3 +153,4 @@ logs/
 .autoenv
 outputs/
 /data
+/logs
